@@ -1,0 +1,13 @@
+server:
+    port: 8081
+    context-path: /borrower
+
+    devtools:
+      restart:
+        enabled: true
+        additional-paths: src/main/java
+spring.jpa:
+      hibernate:
+        ddl-auto: update
+        show-sql: true
+
